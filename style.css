@@ -1,4 +1,8 @@
-body {
+body, html {
+    min-height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #2e204b;
     color: #fff;
     font-family: Roboto, sans-serif;
@@ -51,6 +55,7 @@ li {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
+    font-size: larger;
 }
 
 li:hover {
